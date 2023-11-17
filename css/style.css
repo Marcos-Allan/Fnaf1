@@ -1,0 +1,153 @@
+:root{
+  --cor1: #060C0D;
+  --cor2: #2B4040;
+  --cor3: #465956;
+  --cor4: #798C83;
+  --cor5: #97A69B;
+  --cor6: #ed8ef2;
+  --cor7: #c952f4;
+  --cor8: #f452a4;
+  --cor9: #e2c3d3;
+  --cor10: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: var(--cor1);
+}
+
+div#img1{
+    background-image: url("../images/fnaf1.1.jpeg");
+}
+
+div#bon{
+    background-image: url("../images/Bonnie.jpg");
+}
+
+div#chi{
+    background-image: url("../images/Chica.jpg");
+}
+
+div#fox{
+    background-image: url("../images/Foxy.jpg");
+}
+
+div#fre{
+    background-image: url("../images/Freddy.png");
+}
+
+div#gfo{
+    background-image: url("../images/gold_F.png");
+}
+
+
+div.img{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon{
+    position: absolute;
+    top: -5%;
+    right: 0%;
+}
+
+div.txt{
+    min-height: 100vh;
+    font-family: cursive;
+    position: relative;
+    background-color: var(--cor2);
+    color: var(--cor4);
+    padding: 20px;
+}
+
+div.txt > h2{
+    color: var(--cor5);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+div.txt > p{
+    line-height: 25px;
+    letter-spacing: 0.1em; 
+}
+
+section#menu{
+    display: flex;
+    flex-direction: column;
+    top: 6%;
+    align-items: center;
+    position: fixed;
+    left: calc(0% - 63px);
+    color: white;
+    background-color: #000;
+    width: 60px;
+    height: auto;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: .4s;
+}
+
+#menu>div{
+    text-align: center;
+    padding: 12px 15px;
+    width: auto;
+    height: auto;
+}
+
+i{
+    font-size: 1.8em;-
+}
+
+div#arrow{
+    text-align: center;
+    background-color: var(--cor4);
+    position: absolute;
+    left:100%;
+    padding: 5px;
+    width: auto;
+    z-index: 5;
+    transition: .3s;
+}
+
+#arrow i{
+    font-size: 0.8em;
+}
+
+#config{
+    border-top: 2px solid var(--cor4);
+    border-right: 2px solid var(--cor4);
+    border-bottom: 1px solid var(--cor4);
+    background-color: var(--cor5);
+}
+
+#theme{
+    border-top: 1px solid var(--cor4);
+    border-right: 2px solid var(--cor4);
+    border-bottom: 2px solid var(--cor4);
+    background-color: var(--cor5);
+}
+.icn{
+    width: 25px;
+    height: auto;
+}
