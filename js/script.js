@@ -9,7 +9,7 @@ let main = window.document.querySelector('main')
 
 let theme=window.document.querySelector('#theme')
 2
-let terror = false
+let terror = true
 
 //let divImgs = [...document.querySelectorAll('.img')]
 
@@ -38,12 +38,12 @@ function toggleMode(arg){
   musica()
   if(arg == false){
     main.style.backgroundColor = "var(--cor6)"
-    bonnie.style.backgroundImage = 'url("../images/bonnie_pelucia.png")'
-    chica.style.backgroundImage = 'url("../images/chica_pelucia.png")'
-    freddy.style.backgroundImage = 'url("../images/freddy_pelucia.png")'
-    foxy.style.backgroundImage = 'url("../images/foxy_pelucia.png")'
+    bonnie.style.backgroundImage = "url('../images/bonnie_pelucia.png')"
+    chica.style.backgroundImage = "url('../images/chica_pelucia.png')"
+    freddy.style.backgroundImage = "url('../images/freddy_pelucia.png')"
+    foxy.style.backgroundImage = "url('../images/foxy_pelucia.png')"
     gfo.style.display = 'none'
-    img1.style.backgroundImage = 'url("../images/Animatronics_pelucia.png")'
+    img1.style.backgroundImage = "url('../images/Animatronics_pelucia.png')"
     
     img1.style.backgroundSize = "80%"
     bonnie.style.backgroundSize = "60%"
@@ -60,11 +60,11 @@ function toggleMode(arg){
   }else{
     
     main.style.backgroundColor = "var(--cor1)"
-    img1.style.backgroundImage = 'url("../images/fnaf1.1.jpeg")'
-    bonnie.style.backgroundImage = 'url("../images/Bonnie.jpg")'
-    chica.style.backgroundImage = 'url("../images/Chica.jpg")'
-    freddy.style.backgroundImage = 'url("../images/Freddy.png")'
-    foxy.style.backgroundImage = 'url("../images/Foxy.jpg")'
+    img1.style.backgroundImage = "url('../images/fnaf1.1.jpeg')"
+    bonnie.style.backgroundImage = "url('../images/Bonnie.jpg')"
+    chica.style.backgroundImage = "url('../images/Chica.jpg')"
+    freddy.style.backgroundImage = "url('../images/Freddy.png')"
+    foxy.style.backgroundImage = "url('../images/Foxy.jpg')"
     gfo.style.display = 'block'
     
     img1.style.backgroundSize = "cover"
