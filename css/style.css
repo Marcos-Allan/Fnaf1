@@ -22,27 +22,27 @@ main{
 }
 
 div#img1{
-    background-image: url("../images/fnaf1.1.jpeg") !important;
+    background-image: url("../images/fnaf1.1.jpeg");
 }
 
 div#bon{
-    background-image: url("../images/Bonnie.jpg") !important;
+    background-image: url("../images/Bonnie.jpg");
 }
 
 div#chi{
-    background-image: url("../images/Chica.jpg") !important;
+    background-image: url("../images/Chica.jpg");
 }
 
 div#fox{
-    background-image: url("../images/Foxy.jpg") !important;
+    background-image: url("../images/Foxy.jpg");
 }
 
 div#fre{
-    background-image: url("../images/Freddy.png") !important;
+    background-image: url("../images/Freddy.png");
 }
 
 div#gfo{
-    background-image: url("../images/gold_F.png") !important;
+    background-image: url("../images/gold_F.png");
 }
 
 
