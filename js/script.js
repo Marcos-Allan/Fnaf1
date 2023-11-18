@@ -23,9 +23,9 @@ theme.addEventListener('click', ()=> {
         ar.classList.add('bi-caret-right-fill')
         
         menu.style.left="calc(0% - 63px)"
-        if(terror==true){
+        if(terror === true){
           terror = false
-        }else{
+        }else if(terror === false){
           terror = true
         }
         
