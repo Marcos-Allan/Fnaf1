@@ -63,7 +63,7 @@ function toggleMode(arg){
     chica.style.backgroundImage = "url(../images/Chica.jpg)"
     freddy.style.backgroundImage = "url(../images/Freddy.png)"
     foxy.style.backgroundImage = "url(../images/Foxy.jpg)"
-    gfo.style.display = 'block'
+    gfo.style.display = "block"
     
     img1.style.backgroundSize = "cover"
     bonnie.style.backgroundSize = "cover"
@@ -83,7 +83,7 @@ function toggleMode(arg){
 toggleMode(terror)
 
 window.addEventListener('load',()=>{
-    musica.play()
+    musica()
 })
 
 async function musica(){
