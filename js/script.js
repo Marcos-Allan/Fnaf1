@@ -11,8 +11,6 @@ let theme=window.document.querySelector('#theme')
 2
 let terror = true
 
-//let divImgs = [...document.querySelectorAll('.img')]
-
 let bonnie = document.querySelector('#bon')
 let chica = document.querySelector('#chi')
 let freddy = document.querySelector('#fre')
