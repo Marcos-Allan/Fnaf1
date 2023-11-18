@@ -20,25 +20,55 @@
 main{
     background-color: var(--cor1);
 }
+/*
+    "url(../images/bonnie_pelucia.png)"
+    "url(../images/chica_pelucia.png)"
+    "url(../images/freddy_pelucia.png)"
+    "url(../images/foxy_pelucia.png)"
+    "url(../images/)" */
 
 div#img1{
     background-image: url("../images/fnaf1.1.jpeg");
+    background-size: cover;
+}
+div#img1_f{
+    background-image: url("../images/Animatronics_pelucia.png");
+    background-size: 80%;
 }
 
 div#bon{
     background-image: url("../images/Bonnie.jpg");
 }
+div#bon_f{
+    background-image: url("../images/bonnie_pelucia.png");
+    background-size: 60%;
+}
 
 div#chi{
     background-image: url("../images/Chica.jpg");
+    background-size: cover;
+}
+div#chi_f{
+    background-image: url("../images/chica_pelucia.png");
+    background-size: 60%;
 }
 
 div#fox{
     background-image: url("../images/Foxy.jpg");
+    background-size: cover;
+}
+div#fox_f{
+    background-image: url("../images/foxy_pelucia.png");
+    background-size: 60%;
 }
 
 div#fre{
     background-image: url("../images/Freddy.png");
+    background-size: cover;
+}
+div#fre_f{
+    background-image: url("../images/freddy_pelucia.png");
+    background-size: 60%;
 }
 
 div#gfo{
@@ -52,7 +82,6 @@ div.img{
     height: 100vh;
     color: #fff;
     background-position: center;
-    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }

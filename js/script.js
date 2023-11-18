@@ -8,10 +8,8 @@ let divTxt=[...window.document.querySelectorAll('.txt')]
 let main = window.document.querySelector('main')
 
 let theme=window.document.querySelector('#theme')
-2
-let terror = false
 
-//let divImgs = [...document.querySelectorAll('.img')]
+let terror = false
 
 let bonnie = document.querySelector('#bon')
 let chica = document.querySelector('#chi')
@@ -19,6 +17,13 @@ let freddy = document.querySelector('#fre')
 let foxy = document.querySelector('#fox')
 let gfo = document.querySelector('#gfo')
 let img1 = document.querySelector('#img1')
+
+let bonnie_f = document.querySelector('#bon_f')
+let chica_f = document.querySelector('#chi_f')
+let freddy_f = document.querySelector('#fre_f')
+let foxy_f = document.querySelector('#fox_f')
+let gfo_f = document.querySelector('#gfo_f')
+let img1_f = document.querySelector('#img1_f')
 
 theme.addEventListener('click', ()=> {
   ar.classList.remove('bi-caret-left-fill')
@@ -38,19 +43,20 @@ function toggleMode(arg){
   musica()
   if(arg == false){
     main.style.backgroundColor = "var(--cor6)"
-    bonnie.style.backgroundImage = "url(../images/bonnie_pelucia.png)"
-    chica.style.backgroundImage = "url(../images/chica_pelucia.png)"
-    freddy.style.backgroundImage = "url(../images/freddy_pelucia.png)"
-    foxy.style.backgroundImage = "url(../images/foxy_pelucia.png)"
-    gfo.style.display = "none"
-    img1.style.backgroundImage = "url(../images/Animatronics_pelucia.png)"
     
-    img1.style.backgroundSize = "80%"
-    bonnie.style.backgroundSize = "60%"
-    chica.style.backgroundSize = "60%"
-    freddy.style.backgroundSize = "60%"
-    foxy.style.backgroundSize = "60%"
-  
+    bonnie.style.display = "none"
+    chica.style.display = "none"
+    freddy.style.display = "none"
+    foxy.style.display = "none"
+    gfo.style.display = "none"
+    img1.style.display = "none"
+    
+    bonnie_f.style.display = "block"
+    chica_f.style.display = "block"
+    freddy_f.style.display = "block"
+    foxy_f.style.display = "block"
+    img1_f.style.display = "block"
+
     divTxt.map((el) =>{
       el.style.backgroundColor="var(--cor7)"
       el.style.color="var(--cor10)"
@@ -58,20 +64,21 @@ function toggleMode(arg){
     divTxt[divTxt.length - 1].style.display = 'none'
     
   }else{
-    
     main.style.backgroundColor = "var(--cor1)"
-    img1.style.backgroundImage = "url(../images/fnaf1.1.jpeg)"
-    bonnie.style.backgroundImage = "url(../images/Bonnie.jpg)"
-    chica.style.backgroundImage = "url(../images/Chica.jpg)"
-    freddy.style.backgroundImage = "url(../images/Freddy.png)"
-    foxy.style.backgroundImage = "url(../images/Foxy.jpg)"
-    gfo.style.display = "block"
+
+    bonnie_f.style.display = "none"
+    chica_f.style.display = "none"
+    freddy_f.style.display = "none"
+    foxy_f.style.display = "none"
+    img1_f.style.display = "none"
+    gfo.style.display = "none"
     
-    img1.style.backgroundSize = "cover"
-    bonnie.style.backgroundSize = "cover"
-    chica.style.backgroundSize = "cover"
-    freddy.style.backgroundSize = "cover"
-    foxy.style.backgroundSize = "cover"
+    bonnie.style.display = "block"
+    chica.style.display = "block"
+    freddy.style.display = "block"
+    foxy.style.display = "block"
+    img1.style.display = "block"
+    gfo.style.display = "block"
     
     divTxt.map((el) =>{
       el.style.backgroundColor="var(--cor2)"
