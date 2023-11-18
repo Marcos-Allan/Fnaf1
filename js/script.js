@@ -1,13 +1,13 @@
-const arr=window.document.querySelector('#arrow')
-let ar=window.document.querySelector('#ar')
-let menu=window.document.querySelector('#menu')
-let msc = new Audio("../sounds/FNAF1.mp3")
+const arr = window.document.querySelector('#arrow')
+let ar = window.document.querySelector('#ar')
+let menu = window.document.querySelector('#menu')
+// let msc = new Audio("../sounds/FNAF1.mp3")
 
-let divTxt=[...window.document.querySelectorAll('.txt')]
+let divTxt = [...window.document.querySelectorAll('.txt')]
 
 let main = window.document.querySelector('main')
 
-let theme=window.document.querySelector('#theme')
+let theme = window.document.querySelector('#theme')
 
 let terror = false
 
@@ -33,7 +33,7 @@ theme.addEventListener('click', ()=> {
 })
 
 function toggleMode(arg){
-  musica()
+  // musica()
   if(arg == false){
     main.style.backgroundColor = "var(--cor6)"
     bonnie.style.backgroundImage = "url(../images/bonnie_pelucia.png)"
@@ -82,19 +82,19 @@ function toggleMode(arg){
 
 toggleMode(terror)
 
-window.addEventListener('load',()=>{
-    musica()
-})
+// window.addEventListener('load',()=>{
+//     musica()
+// })
 
-async function musica(){
-  setTimeout(() => {
-    if(terror == true){
-      msc.play()
-    }else{
-      msc.pause()
-    }
-  }, 1);
-}
+// async function musica(){
+//   setTimeout(() => {
+//     if(terror == true){
+//       msc.play()
+//     }else{
+//       msc.pause()
+//     }
+//   }, 1);
+// }
 
 arr.addEventListener('click', ()=>{
     if(menu.style.left!="0%"){
